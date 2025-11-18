@@ -1,7 +1,6 @@
 <div align="center" style="position: relative; overflow: hidden;">
-  <!-- Upgraded Particle Confetti -->
+  <!-- Upgraded Particle Confetti (More Pieces) -->
   <div class="confetti">
-    <!-- 20+ particles for explosion -->
     <div class="confetti-piece" style="--color: #FF6B35; --delay: 0s;"></div>
     <div class="confetti-piece" style="--color: #4ECDC4; --delay: 0.2s;"></div>
     <div class="confetti-piece" style="--color: #45B7D1; --delay: 0.4s;"></div>
@@ -12,13 +11,19 @@
     <div class="confetti-piece" style="--color: #F7DC6F; --delay: 1.4s;"></div>
     <div class="confetti-piece" style="--color: #BB8FCE; --delay: 1.6s;"></div>
     <div class="confetti-piece" style="--color: #FF9999; --delay: 1.8s;"></div>
-    <!-- Add more for density -->
     <div class="confetti-piece" style="--color: #FF6B35; --delay: 2s;"></div>
     <div class="confetti-piece" style="--color: #4ECDC4; --delay: 2.2s;"></div>
-    <!-- ... repeat pattern up to 20 -->
+    <div class="confetti-piece" style="--color: #45B7D1; --delay: 2.4s;"></div>
+    <div class="confetti-piece" style="--color: #96CEB4; --delay: 2.6s;"></div>
+    <div class="confetti-piece" style="--color: #FFEAA7; --delay: 2.8s;"></div>
+    <div class="confetti-piece" style="--color: #DDA0DD; --delay: 3s;"></div>
+    <div class="confetti-piece" style="--color: #98D8C8; --delay: 3.2s;"></div>
+    <div class="confetti-piece" style="--color: #F7DC6F; --delay: 3.4s;"></div>
+    <div class="confetti-piece" style="--color: #BB8FCE; --delay: 3.6s;"></div>
+    <div class="confetti-piece" style="--color: #FF9999; --delay: 3.8s;"></div>
   </div>
   
-  <!-- Your Real Avatar with Glitch -->
+  <!-- Your Real Avatar (Loads Fine!) -->
   <img src="https://avatars.githubusercontent.com/u/174855488?v=4" alt="Mark J Yadav" style="border-radius: 50%; width: 150px; height: 150px; animation: float 3s ease-in-out infinite, glitch 2s infinite; box-shadow: 0 0 20px #0EA5E9;" />
   <div class="glitch" data-text="Mark J Yadav">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0EA5E9&center=true&vCenter=true&width=435&lines=Hi+there!+I%27m+Mark+J+Yadav;Full-Stack+Dev+%26+AI+Enthusiast;Building+the+future+with+code+🚀;Let's+create+something+epic!+%F0%9F%9A%80" alt="Typing SVG" />
@@ -127,30 +132,30 @@
   </div>
 </div>
 
-<!-- Dynamic Widgets -->
+<!-- Dynamic Vibes (Spotify Commented Out for Now) -->
 <div align="center" style="animation: fadeInUp 1s ease-out 2s both;">
   <h3>Dynamic Vibes</h3>
   ![WakaTime](https://wakatime.com/badge/github/markjyadavoffical.svg)
   <br>
-  <!-- Spotify Now Playing -->
-  <img src="https://spotify-recently-played-readme.vercel.app/api?user=your_spotify_user_id&count=1&theme=radical" alt="Spotify" />
+  <!-- Uncomment & Add Your Spotify User ID When Ready -->
+  <!-- <img src="https://spotify-recently-played-readme.vercel.app/api?user=YOUR_SPOTIFY_USER_ID&count=1&theme=radical" alt="Spotify" /> -->
 </div>
 
-<!-- Sparkly Project Cards -->
+<!-- Sparkly Project Cards (Now with Loading Placeholders) -->
 <div align="center" style="animation: fadeInUp 1s ease-out 2.2s both;">
   <h3>🌟 Featured Projects</h3>
   <div class="project-grid">
-    <a href="https://github.com/markjyadavoffical/your-repo1" class="project-card sparkly">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=markjyadavoffical&repo=your-repo1&theme=radical" alt="Project 1" />
+    <a href="#" class="project-card sparkly" onclick="alert('Create your first repo here!');">
+      <img src="https://via.placeholder.com/250x100/FF9800/000?text=AI+ChatBot" alt="Project 1" />
       <h4>AI ChatBot</h4>
       <p>Python-powered conversational AI</p>
     </a>
-    <a href="https://github.com/markjyadavoffical/your-repo2" class="project-card sparkly">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=markjyadavoffical&repo=your-repo2&theme=radical" alt="Project 2" />
+    <a href="#" class="project-card sparkly" onclick="alert('Add your dashboard repo!');">
+      <img src="https://via.placeholder.com/250x100/2196F3/fff?text=Full-Stack+Dashboard" alt="Project 2" />
       <h4>Full-Stack Dashboard</h4>
       <p>React + Node.js magic</p>
     </a>
-    <!-- Add more repos here -->
+    <!-- Add more: Replace href with real repo URL, img with https://github-readme-stats.vercel.app/api/pin/?username=markjyadavoffical&repo=REAL-REPO&theme=radical -->
   </div>
 </div>
 
@@ -209,7 +214,9 @@
 .bounce-in { animation: bounce 1s ease-out forwards; opacity: 0; transform: scale(0.3); }
 .bounce-in:nth-child(1) { animation-delay: 0s; }
 .bounce-in:nth-child(2) { animation-delay: 0.2s; }
-/* ... add delays */
+.bounce-in:nth-child(3) { animation-delay: 0.4s; }
+.bounce-in:nth-child(4) { animation-delay: 0.6s; }
+.bounce-in:nth-child(5) { animation-delay: 0.8s; }
 @keyframes bounce { 0% { transform: scale(0.3); opacity: 0; } 50% { transform: scale(1.05); } 70% { transform: scale(0.9); } 100% { transform: scale(1); opacity: 1; } }
 .flip-card:hover .flip-card-inner { transform: rotateY(180deg) scale(1.1); }
 
@@ -219,7 +226,7 @@
 .sparkly:hover::before { opacity: 1; animation: spark 0.5s ease-out; }
 @keyframes spark { 0% { transform: scale(0); } 100% { transform: scale(1); } }
 
-/* Existing Styles (Updated) */
+/* Existing Styles */
 @keyframes glitch { 2%, 64% { transform: translate(2px, 0) skew(0deg); } 4%, 60% { transform: translate(-2px, 0) skew(0deg); } 62% { transform: translate(0, 0) skew(5deg); } }
 @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
 .typer { border-right: 2px solid #00ff00; white-space: nowrap; overflow: hidden; animation: typing 4s steps(60, end), blink 0.75s step-end infinite; }
@@ -231,7 +238,7 @@
 .flip-card-front, .flip-card-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; }
 .flip-card-back { transform: rotateY(180deg); background: rgba(0,0,0,0.8); }
 .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
-.project-card { text-decoration: none; color: white; transition: transform 0.3s, box-shadow 0.3s; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+.project-card { text-decoration: none; color: white; transition: transform 0.3s, box-shadow 0.3s; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.2); display: block; }
 .project-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(14,165,233,0.5); }
 .project-card img { width: 100%; height: 100px; object-fit: cover; }
 @keyframes neonFlicker { 0%, 100% { text-shadow: 0 0 5px #0EA5E9; } 50% { text-shadow: 0 0 20px #0EA5E9, 0 0 30px #0EA5E9; } }
