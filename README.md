@@ -58,7 +58,7 @@
 </div>
 
 <div style="animation: fadeInUp 1s ease-out 1.2s both;">
-  Let's innovate together → [Fork a project](https://github.com/) | [⭐ Star a repo], or [💬 Reach out](mailto:markjyadav@gmail.com)
+  Let's innovate together → [Fork a project](https://github.com/markjyadavoffical) | [⭐ Star a repo], or [💬 Reach out](mailto:markjyadav@gmail.com)
 </div>
 
 ## 💼 Bouncing 3D Skill Flip Cards
@@ -141,11 +141,11 @@
   <!-- <img src="https://spotify-recently-played-readme.vercel.app/api?user=YOUR_SPOTIFY_USER_ID&count=1&theme=radical" alt="Spotify" /> -->
 </div>
 
-<!-- Sparkly Project Cards (Now with Loading Placeholders) -->
+<!-- Sparkly Project Cards (Added Your Graphic Design Editor!) -->
 <div align="center" style="animation: fadeInUp 1s ease-out 2.2s both;">
   <h3>🌟 Featured Projects</h3>
   <div class="project-grid">
-    <a href="#" class="project-card sparkly" onclick="alert('Create your first repo here!');">
+    <a href="#" class="project-card sparkly" onclick="alert('Create your AI repo here!');">
       <img src="https://via.placeholder.com/250x100/FF9800/000?text=AI+ChatBot" alt="Project 1" />
       <h4>AI ChatBot</h4>
       <p>Python-powered conversational AI</p>
@@ -154,6 +154,11 @@
       <img src="https://via.placeholder.com/250x100/2196F3/fff?text=Full-Stack+Dashboard" alt="Project 2" />
       <h4>Full-Stack Dashboard</h4>
       <p>React + Node.js magic</p>
+    </a>
+    <a href="#" class="project-card sparkly" onclick="alert('Your Canva-like editor is coming soon!');" style="background: linear-gradient(135deg, #9C27B0, #7B1FA2);">
+      <img src="https://via.placeholder.com/250x100/9C27B0/fff?text=Graphic+Design+Editor" alt="Project 3" />
+      <h4>🎨 Graphic Design Editor</h4>
+      <p>Canva-inspired tool for vectors, layers & creative edits | Built with JS/TS</p>
     </a>
     <!-- Add more: Replace href with real repo URL, img with https://github-readme-stats.vercel.app/api/pin/?username=markjyadavoffical&repo=REAL-REPO&theme=radical -->
   </div>
