@@ -147,6 +147,7 @@
     <img alt="snake animation" src="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg" />
   </picture>
 </div>
+
 <!-- Visitor & Streak -->
 <div style="transition: all 1s ease-out 2.6s; text-align: center; cursor: pointer;" onmouseover="this.style.transform='scale(1.05) rotateX(5deg);'" onmouseout="this.style.transform='scale(1) rotateX(0deg);'">
   <img src="https://profile-counter.glitch.me/{your-visitors-token}/count.svg" alt="Visitors" style="margin: 0 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateY(10deg);'" onmouseout="this.style.transform='scale(1) rotateY(0deg);'" />
@@ -155,12 +156,12 @@
 
 ---
 
-
-<!-- <div style="transition: all 1s ease-out 2.8s; text-align: center; cursor: pointer;" onmouseover="this.style.transform='scale(1.05) rotateX(5deg); box-shadow: 0 10px 30px rgba(14,165,233,0.3);'" onmouseout="this.style.transform='scale(1) rotateX(0deg); box-shadow: none;'">
+## 📊 GitHub Stats
+<div style="transition: all 1s ease-out 2.8s; text-align: center; cursor: pointer;" onmouseover="this.style.transform='scale(1.05) rotateX(5deg); box-shadow: 0 10px 30px rgba(14,165,233,0.3);'" onmouseout="this.style.transform='scale(1) rotateX(0deg); box-shadow: none;'">
   ![Stats](https://github-readme-stats.vercel.app/api?username=markjyadavoffical&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=6BE6FF&text_color=9CDCFE)
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=markjyadavoffical&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6BE6FF&text_color=9CDCFE)
 </div>
 
 <div style="transition: all 1s ease-out 3s; text-align: center; cursor: pointer;" onmouseover="this.style.transform='rotateY(180deg) scale(1.1); filter: drop-shadow(0 0 20px #0EA5E9) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) scale(1); filter: drop-shadow(0 0 10px #0EA5E9) brightness(1);'">
   <img src="https://github-profile-trophy.vercel.app/?username=markjyadavoffical&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" style="filter: drop-shadow(0 0 10px #0EA5E9); transition: all 0.3s;" />
-</div> -->
+</div>
