@@ -147,7 +147,6 @@
     <img alt="snake animation" src="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg" />
   </picture>
 </div>
-
 <!-- Visitor & Streak -->
 <div style="transition: all 1s ease-out 2.6s; text-align: center; cursor: pointer;" onmouseover="this.style.transform='scale(1.05) rotateX(5deg);'" onmouseout="this.style.transform='scale(1) rotateX(0deg);'">
   <img src="https://profile-counter.glitch.me/{your-visitors-token}/count.svg" alt="Visitors" style="margin: 0 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateY(10deg);'" onmouseout="this.style.transform='scale(1) rotateY(0deg);'" />
