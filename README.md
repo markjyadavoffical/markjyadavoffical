@@ -106,13 +106,13 @@
 </div>
 
 <!-- Dynamic Vibes -->
-<div style="animation: fadeInUp 1s ease-out 2s both; text-align: center; margin: 20px 0;">
+<!-- <div style="animation: fadeInUp 1s ease-out 2s both; text-align: center; margin: 20px 0;">
   <h3>Dynamic Vibes</h3>
   ![WakaTime](https://wakatime.com/badge/github/markjyadavoffical.svg)
-</div>
+</div> -->
 
 <!-- Projects -->
-<div style="animation: fadeInUp 1s ease-out 2.2s both; margin: 20px 0; text-align: center;">
+<!-- <div style="animation: fadeInUp 1s ease-out 2.2s both; margin: 20px 0; text-align: center;">
   <h3 style="color: #0EA5E9; text-shadow: 0 0 20px #0EA5E9;">🌟 Featured Projects</h3>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; max-width: 800px; margin: 0 auto;">
     <a href="#" style="text-decoration: none; color: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.4s; position: relative; display: block;" onmouseover="this.style.transform='translateY(-10px) scale(1.02); box-shadow: 0 15px 40px rgba(14,165,233,0.4);'; this.style.filter='brightness(1.1) drop-shadow(0 0 10px #FF9800);'" onmouseout="this.style.transform='translateY(0) scale(1); box-shadow: 0 4px 15px rgba(0,0,0,0.2);'; this.style.filter='brightness(1) drop-shadow(0 0 0 #FF9800);'">
@@ -155,18 +155,18 @@
 </div>
 
 ---
+ -->
 
-## 📊 GitHub Stats
-<div style="animation: fadeInUp 1s ease-out 2.8s both; text-align: center;">
+<!-- <div style="animation: fadeInUp 1s ease-out 2.8s both; text-align: center;">
   ![Stats](https://github-readme-stats.vercel.app/api?username=markjyadavoffical&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=6BE6FF&text_color=9CDCFE)
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=markjyadavoffical&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6BE6FF&text_color=9CDCFE)
-</div>
+</div> -->
 
-<div style="animation: fadeInUp 1s ease-out 3s both; text-align: center;">
+<!-- <div style="animation: fadeInUp 1s ease-out 3s both; text-align: center;">
   <img src="https://github-profile-trophy.vercel.app/?username=markjyadavoffical&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" style="filter: drop-shadow(0 0 10px #0EA5E9); transition: filter 0.3s;" onmouseover="this.style.filter='drop-shadow(0 0 20px #0EA5E9) brightness(1.2);'" onmouseout="this.style.filter='drop-shadow(0 0 10px #0EA5E9) brightness(1);'" />
-</div>
+</div> -->
 
-<style>
+<!-- <style>
 @keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
 @keyframes gridPulse { 0%, 100% { opacity: 0.1; } 50% { opacity: 0.3; } }
 @keyframes swarmFloat { 0%, 100% { transform: translateY(0) rotate(0deg); opacity: 1; } 50% { transform: translateY(-20px) rotate(180deg); opacity: 0.7; } }
@@ -178,4 +178,4 @@
 @keyframes glowPulse { 0% { text-shadow: 0 0 10px #0EA5E9; } 100% { text-shadow: 0 0 30px #0EA5E9; } }
 @keyframes orbPulse { 0% { opacity: 0.5; } 100% { opacity: 1; } }
 @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-</style>
+</style> -->
