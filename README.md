@@ -18,8 +18,8 @@
     <!-- ... repeat pattern up to 20 -->
   </div>
   
-  <!-- Fixed Avatar with Glitch -->
-  <img src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Mark J Yadav" style="border-radius: 50%; width: 150px; height: 150px; animation: float 3s ease-in-out infinite, glitch 2s infinite; box-shadow: 0 0 20px #0EA5E9;" />
+  <!-- Your Real Avatar with Glitch -->
+  <img src="https://avatars.githubusercontent.com/u/174855488?v=4" alt="Mark J Yadav" style="border-radius: 50%; width: 150px; height: 150px; animation: float 3s ease-in-out infinite, glitch 2s infinite; box-shadow: 0 0 20px #0EA5E9;" />
   <div class="glitch" data-text="Mark J Yadav">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0EA5E9&center=true&vCenter=true&width=435&lines=Hi+there!+I%27m+Mark+J+Yadav;Full-Stack+Dev+%26+AI+Enthusiast;Building+the+future+with+code+🚀;Let's+create+something+epic!+%F0%9F%9A%80" alt="Typing SVG" />
   </div>
