@@ -1,9 +1,9 @@
 name: Generate Snake
 on:
   push:
-    branches: [ main ]  # Change to 'master' if your default branch is master
+    branches: [ main ]  # Agar tera branch 'master' hai, toh [ master ] kar de
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+    - cron: '0 0 * * *'  # Daily auto-run
 jobs:
   gen:
     runs-on: ubuntu-latest
