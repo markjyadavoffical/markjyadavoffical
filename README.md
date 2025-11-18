@@ -1,146 +1,177 @@
-<div align="center" style="position: relative; overflow: hidden; height: 200px; background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); background-size: 400% 400%; animation: gradientShift 15s ease infinite;">
-  <!-- Neon Grid Overlay -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: linear-gradient(#0EA5E9 1px, transparent 1px), linear-gradient(90deg, #0EA5E9 1px, transparent 1px); background-size: 50px 50px; opacity: 0.1; animation: gridPulse 4s ease infinite;"></div>
-  
-  <!-- Floating Particles (Simplified Inline) -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
-    <div style="position: absolute; width: 4px; height: 4px; background: #0EA5E9; border-radius: 50%; top: 20%; left: 10%; animation: swarmFloat 6s ease-in-out infinite;"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: #FF6B35; border-radius: 50%; top: 40%; left: 30%; animation: swarmFloat 6s ease-in-out infinite 0.5s;"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: #4ECDC4; border-radius: 50%; top: 60%; left: 50%; animation: swarmFloat 6s ease-in-out infinite 1s;"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: #FFEAA7; border-radius: 50%; top: 30%; left: 70%; animation: swarmFloat 6s ease-in-out infinite 1.5s;"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: #9C27B0; border-radius: 50%; top: 80%; left: 20%; animation: swarmFloat 6s ease-in-out infinite 2s;"></div>
-    <!-- Add 5-10 more for swarm effect if needed -->
+<div style="perspective: 1000px; height: 300px; position: relative; overflow: hidden; background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); background-size: 400% 400%; animation: gradientShift 15s ease infinite;">
+  <!-- 3D Grid Floor -->
+  <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; transform-style: preserve-3d; animation: gridTilt 10s ease infinite alternate;">
+    <div style="position: absolute; width: 100%; height: 100%; background-image: repeating-linear-gradient(0deg, transparent, transparent 20px, #0EA5E9 20px, #0EA5E9 21px), repeating-linear-gradient(90deg, transparent, transparent 20px, #0EA5E9 20px, #0EA5E9 21px); background-size: 20px 20px; opacity: 0.2; transform: rotateX(80deg) translateZ(-200px);"></div>
   </div>
   
-  <!-- Hologram Avatar -->
-  <img src="https://avatars.githubusercontent.com/u/174855488?v=4" alt="Mark J Yadav" style="border-radius: 50%; width: 150px; height: 150px; animation: hologramRotate 8s linear infinite, glitch 2s infinite; filter: drop-shadow(0 0 10px #0EA5E9); position: relative; z-index: 2;" />
+  <!-- 3D Particles (Floating Orbs) -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+    <div style="position: absolute; width: 8px; height: 8px; background: #0EA5E9; border-radius: 50%; top: 30%; left: 20%; animation: orbit3D 8s linear infinite; transform-style: preserve-3d;"></div>
+    <div style="position: absolute; width: 8px; height: 8px; background: #FF6B35; border-radius: 50%; top: 50%; left: 50%; animation: orbit3D 6s linear infinite reverse; transform-style: preserve-3d; animation-delay: 2s;"></div>
+    <div style="position: absolute; width: 8px; height: 8px; background: #4ECDC4; border-radius: 50%; top: 70%; left: 80%; animation: orbit3D 7s linear infinite; transform-style: preserve-3d; animation-delay: 4s;"></div>
+  </div>
+  
+  <!-- 3D Avatar Cube -->
+  <div style="position: relative; z-index: 2; margin: 50px auto; width: 150px; height: 150px; transform-style: preserve-3d; animation: cubeRotate 12s linear infinite;">
+    <div style="position: absolute; width: 150px; height: 150px; transform: rotateY(0deg) translateZ(75px);">
+      <img src="https://avatars.githubusercontent.com/u/174855488?v=4" style="width: 100%; height: 100%; border-radius: 50%; filter: drop-shadow(0 0 10px #0EA5E9);" />
+    </div>
+    <div style="position: absolute; width: 150px; height: 150px; background: linear-gradient(45deg, #0EA5E9, #FF6B35); transform: rotateY(90deg) translateZ(75px); border-radius: 50%; opacity: 0.8;"></div>
+    <div style="position: absolute; width: 150px; height: 150px; background: linear-gradient(45deg, #4ECDC4, #FFEAA7); transform: rotateY(180deg) translateZ(75px); border-radius: 50%; opacity: 0.6;"></div>
+    <div style="position: absolute; width: 150px; height: 150px; background: linear-gradient(45deg, #9C27B0, #0EA5E9); transform: rotateY(270deg) translateZ(75px); border-radius: 50%; opacity: 0.7;"></div>
+  </div>
   
   <!-- Typing Hero -->
-  <div style="position: relative; z-index: 2; animation: glitchSkew 1s infinite;">
+  <div style="position: relative; z-index: 2; text-align: center; margin-top: 20px; animation: glitchSkew 1s infinite;">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Hi+there!+I%27m+Mark+J+Yadav;Full-Stack+Dev+%26+AI+Enthusiast;Building+the+future+with+code+🚀;Let's+create+something+epic!+%F0%9F%9A%80" alt="Typing SVG" />
   </div>
 </div>
 
 <!-- Badges -->
-<div align="center" style="margin: 20px 0; animation: fadeInUp 1s ease-out;">
-  <img src="https://img.shields.io/badge/Full--Stack%20Dev-0EA5E9?style=for-the-badge&logo=react&logoColor=white" alt="Badge" style="margin: 0 10px; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.animation='spin 1s linear infinite; transform: scale(1.2); box-shadow: 0 0 20px #0EA5E9;'" onmouseout="this.style.animation='none; transform: scale(1); box-shadow: none;'" />
-  <img src="https://img.shields.io/badge/Python%20Expert-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Badge" style="margin: 0 10px; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.animation='spin 1s linear infinite; transform: scale(1.2); box-shadow: 0 0 20px #3776AB;'" onmouseout="this.style.animation='none; transform: scale(1); box-shadow: none;'" />
-  <img src="https://img.shields.io/badge/TS%20%26%20JS-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="Badge" style="margin: 0 10px; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.animation='spin 1s linear infinite; transform: scale(1.2); box-shadow: 0 0 20px #007ACC;'" onmouseout="this.style.animation='none; transform: scale(1); box-shadow: none;'" />
-  <img src="https://img.shields.io/badge/C%2B%2B%20%26%20C%23-9C27B0?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Badge" style="margin: 0 10px; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.animation='spin 1s linear infinite; transform: scale(1.2); box-shadow: 0 0 20px #9C27B0;'" onmouseout="this.style.animation='none; transform: scale(1); box-shadow: none;'" />
+<div style="margin: 20px 0; animation: fadeInUp 1s ease-out; text-align: center;">
+  <img src="https://img.shields.io/badge/Full--Stack%20Dev-0EA5E9?style=for-the-badge&logo=react&logoColor=white" alt="Badge" style="margin: 0 10px; transition: all 0.3s; cursor: pointer; transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(360deg) scale(1.2);'; this.style.filter='drop-shadow(0 0 20px #0EA5E9) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) scale(1);'; this.style.filter='drop-shadow(0 0 0) brightness(1);'" />
+  <img src="https://img.shields.io/badge/Python%20Expert-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Badge" style="margin: 0 10px; transition: all 0.3s; cursor: pointer; transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(360deg) scale(1.2);'; this.style.filter='drop-shadow(0 0 20px #3776AB) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) scale(1);'; this.style.filter='drop-shadow(0 0 0) brightness(1);'" />
+  <img src="https://img.shields.io/badge/TS%20%26%20JS-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="Badge" style="margin: 0 10px; transition: all 0.3s; cursor: pointer; transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(360deg) scale(1.2);'; this.style.filter='drop-shadow(0 0 20px #007ACC) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) scale(1);'; this.style.filter='drop-shadow(0 0 0) brightness(1);'" />
+  <img src="https://img.shields.io/badge/C%2B%2B%20%26%20C%23-9C27B0?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Badge" style="margin: 0 10px; transition: all 0.3s; cursor: pointer; transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(360deg) scale(1.2);'; this.style.filter='drop-shadow(0 0 20px #9C27B0) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) scale(1);'; this.style.filter='drop-shadow(0 0 0) brightness(1);'" />
 </div>
 
 ## 🚀 About Me
-<div style="animation: fadeInUp 1s ease-out 0.5s both; background: rgba(0,0,0,0.1); padding: 20px; border-radius: 10px; margin: 20px 0;">
+<div style="animation: fadeInUp 1s ease-out 0.5s both; background: rgba(0,0,0,0.1); padding: 20px; border-radius: 10px; margin: 20px 0; transform-style: preserve-3d; perspective: 500px;">
   <ul style="list-style: none; padding: 0;">
-    <li style="opacity: 0; transform: translateY(20px); animation: fadeInUp 0.6s ease forwards 0.1s; margin: 10px 0;">🔭 Specialize in full-stack apps & AI tools like graphic editors.</li>
-    <li style="opacity: 0; transform: translateY(20px); animation: fadeInUp 0.6s ease forwards 0.2s; margin: 10px 0;">🌱 Expert in Python for AI, JS/TS for dynamic UIs.</li>
-    <li style="opacity: 0; transform: translateY(20px); animation: fadeInUp 0.6s ease forwards 0.3s; margin: 10px 0;">⚡ Building Canva-like design tools with layers & vectors.</li>
-    <li style="opacity: 0; transform: translateY(20px); animation: fadeInUp 0.6s ease forwards 0.4s; margin: 10px 0;">💬 Open source lover—let's collab!</li>
-    <li style="opacity: 0; transform: translateY(20px); animation: fadeInUp 0.6s ease forwards 0.5s; margin: 10px 0;">📚 Lifelong learner in code & creativity.</li>
+    <li style="margin: 10px 0; opacity: 0; transform: translateY(20px) rotateX(10deg); animation: fadeInUp 0.6s ease forwards 0.1s;">🔭 Specialize in full-stack apps & AI tools like graphic editors.</li>
+    <li style="margin: 10px 0; opacity: 0; transform: translateY(20px) rotateX(10deg); animation: fadeInUp 0.6s ease forwards 0.2s;">🌱 Expert in Python for AI, JS/TS for dynamic UIs.</li>
+    <li style="margin: 10px 0; opacity: 0; transform: translateY(20px) rotateX(10deg); animation: fadeInUp 0.6s ease forwards 0.3s;">⚡ Building Canva-like design tools with layers & vectors.</li>
+    <li style="margin: 10px 0; opacity: 0; transform: translateY(20px) rotateX(10deg); animation: fadeInUp 0.6s ease forwards 0.4s;">💬 Open source lover—let's collab!</li>
+    <li style="margin: 10px 0; opacity: 0; transform: translateY(20px) rotateX(10deg); animation: fadeInUp 0.6s ease forwards 0.5s;">📚 Lifelong learner in code & creativity.</li>
   </ul>
 </div>
 
 ## ⚡ Motto
-<div style="font-size: 1.2em; color: #FF6B35; text-shadow: 0 0 10px #FF6B35; animation: waveVibe 2s ease-in-out infinite; margin: 20px 0; animation-delay: 1s;">
+<div style="font-size: 1.2em; color: #FF6B35; text-shadow: 0 0 10px #FF6B35; animation: waveVibe 2s ease-in-out infinite; margin: 20px 0; animation-delay: 1s; text-align: center; transform-style: preserve-3d; transform: rotateX(5deg);">
   "What you do today can improve all of your tomorrows." – Especially when building the future with code!
 </div>
 
-<div style="animation: fadeInUp 1s ease-out 1.2s both; text-align: center;">
-  Let's innovate together → [Fork a project](https://github.com/) | [⭐ Star a repo], or [💬 Reach out](mailto:markjyadavceo@gmail.com)
+<div style="animation: fadeInUp 1s ease-out 1.2s both; text-align: center; margin: 20px 0; transform-style: preserve-3d;">
+  Let's innovate together → [Fork a project](https://github.com/) | [⭐ Star a repo], or [💬 Reach out](mailto:markjyadav@gmail.com)
 </div>
 
-## 💼 Skills
-<div align="center" style="perspective: 1000px; margin: 20px 0; animation: fadeInUp 1s ease-out 1.5s both;">
-  <h3 style="color: #0EA5E9; text-shadow: 0 0 20px #0EA5E9; animation: glowPulse 2s infinite;">Skills <span style="animation: orbPulse 1s infinite alternate;">🔮</span></h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
-    <div style="perspective: 1000px; transition: transform 0.6s; cursor: pointer;" onmouseover="this.style.transform='rotateY(180deg) rotateX(10deg) scale(1.05); filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));'" onmouseout="this.style.transform='rotateY(0deg) scale(1); filter: none;'">
-      <div style="position: absolute; width: 100%; height: 150px; backface-visibility: hidden; border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; background: linear-gradient(135deg, #FF9800, #F57C00);">
+## 💼 Skills (3D Pyramid)
+<div style="perspective: 1000px; margin: 20px 0; animation: fadeInUp 1s ease-out 1.5s both; text-align: center; transform-style: preserve-3d;">
+  <h3 style="color: #0EA5E9; text-shadow: 0 0 20px #0EA5E9; animation: glowPulse 2s infinite; transform: rotateX(10deg);">Skills <span style="animation: orbPulse 1s infinite alternate;">🔮</span></h3>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 20px; transform-style: preserve-3d; animation: pyramidSpin 20s linear infinite;">
+    <!-- Python (Front) -->
+    <div style="transition: transform 0.6s; cursor: pointer; transform: rotateY(0deg) translateZ(100px); transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(0deg) translateZ(150px) scale(1.1);'; this.style.filter='drop-shadow(0 10px 20px rgba(0,0,0,0.3)) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) translateZ(100px) scale(1);'; this.style.filter='none brightness(1);'">
+      <div style="width: 150px; height: 150px; background: linear-gradient(135deg, #FF9800, #F57C00); border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" />
         <h4>🐍 Python (100%)</h4>
       </div>
-      <div style="position: absolute; width: 100%; height: 150px; backface-visibility: hidden; border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; background: rgba(0,0,0,0.7); transform: rotateY(180deg);">
-        <p>AI/ML, Automation | TensorFlow, Pandas</p>
-      </div>
     </div>
-    <!-- Repeat for JS, TS, C#, C++ with different colors & icons – copy the div above -->
-    <div style="perspective: 1000px; transition: transform 0.6s; cursor: pointer;" onmouseover="this.style.transform='rotateY(180deg) rotateX(10deg) scale(1.05); filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));'" onmouseout="this.style.transform='rotateY(0deg) scale(1); filter: none;'">
-      <div style="position: absolute; width: 100%; height: 150px; backface-visibility: hidden; border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; background: linear-gradient(135deg, #2196F3, #1976D2);">
+    <!-- JS (Right) -->
+    <div style="transition: transform 0.6s; cursor: pointer; transform: rotateY(72deg) translateZ(100px); transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(72deg) translateZ(150px) scale(1.1);'; this.style.filter='drop-shadow(0 10px 20px rgba(0,0,0,0.3)) brightness(1.2);'" onmouseout="this.style.transform='rotateY(72deg) translateZ(100px) scale(1);'; this.style.filter='none brightness(1);'">
+      <div style="width: 150px; height: 150px; background: linear-gradient(135deg, #2196F3, #1976D2); border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" />
-        <h4>⚡ JavaScript (95%)</h4>
-      </div>
-      <div style="position: absolute; width: 100%; height: 150px; backface-visibility: hidden; border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; background: rgba(0,0,0,0.7); transform: rotateY(180deg);">
-        <p>Dynamic UIs, Node.js | React, Vue</p>
+        <h4>⚡ JS (95%)</h4>
       </div>
     </div>
-    <!-- Add TS, C#, C++ similarly -->
+    <!-- TS (Back Right) -->
+    <div style="transition: transform 0.6s; cursor: pointer; transform: rotateY(144deg) translateZ(100px); transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(144deg) translateZ(150px) scale(1.1);'; this.style.filter='drop-shadow(0 10px 20px rgba(0,0,0,0.3)) brightness(1.2);'" onmouseout="this.style.transform='rotateY(144deg) translateZ(100px) scale(1);'; this.style.filter='none brightness(1);'">
+      <div style="width: 150px; height: 150px; background: linear-gradient(135deg, #00BCD4, #0097A7); border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50" />
+        <h4>🔧 TS (90%)</h4>
+      </div>
+    </div>
+    <!-- C# (Back Left) -->
+    <div style="transition: transform 0.6s; cursor: pointer; transform: rotateY(216deg) translateZ(100px); transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(216deg) translateZ(150px) scale(1.1);'; this.style.filter='drop-shadow(0 10px 20px rgba(0,0,0,0.3)) brightness(1.2);'" onmouseout="this.style.transform='rotateY(216deg) translateZ(100px) scale(1);'; this.style.filter='none brightness(1);'">
+      <div style="width: 150px; height: 150px; background: linear-gradient(135deg, #9C27B0, #7B1FA2); border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50" />
+        <h4>🔄 C# (85%)</h4>
+      </div>
+    </div>
+    <!-- C++ (Left) -->
+    <div style="transition: transform 0.6s; cursor: pointer; transform: rotateY(288deg) translateZ(100px); transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(288deg) translateZ(150px) scale(1.1);'; this.style.filter='drop-shadow(0 10px 20px rgba(0,0,0,0.3)) brightness(1.2);'" onmouseout="this.style.transform='rotateY(288deg) translateZ(100px) scale(1);'; this.style.filter='none brightness(1);'">
+      <div style="width: 150px; height: 150px; background: linear-gradient(135deg, #4CAF50, #45a049); border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="50" />
+        <h4>⚙️ C++ (90%)</h4>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- Projects -->
-<div align="center" style="animation: fadeInUp 1s ease-out 2s both; margin: 20px 0;">
-  <h3 style="color: #0EA5E9; text-shadow: 0 0 20px #0EA5E9;">🌟 Featured Projects</h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
-    <a href="#" style="text-decoration: none; color: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.4s; position: relative; display: block;" onmouseover="this.style.transform='translateY(-10px) scale(1.02); box-shadow: 0 15px 40px rgba(14,165,233,0.4);'; this.style.filter='brightness(1.1);'" onmouseout="this.style.transform='translateY(0) scale(1); box-shadow: 0 4px 15px rgba(0,0,0,0.2);'; this.style.filter='brightness(1);'">
-      <img src="https://via.placeholder.com/250x100/FF9800/000?text=AI+ChatBot" alt="AI ChatBot" style="width: 100%; height: 100px; object-fit: cover;" />
-      <div style="padding: 10px; background: #FF9800; text-align: center;">
+<!-- Dynamic Vibes -->
+<div style="animation: fadeInUp 1s ease-out 2s both; text-align: center; margin: 20px 0;">
+  <h3 style="color: #0EA5E9; text-shadow: 0 0 10px #0EA5E9;">Dynamic Vibes</h3>
+  ![WakaTime](https://wakatime.com/badge/github/markjyadavoffical.svg)
+</div>
+
+<!-- 3D Project Carousel -->
+<div style="perspective: 1000px; margin: 20px 0; animation: fadeInUp 1s ease-out 2.2s both; text-align: center; transform-style: preserve-3d;">
+  <h3 style="color: #0EA5E9; text-shadow: 0 0 20px #0EA5E9; animation: glowPulse 2s infinite;">🌟 Featured Projects</h3>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 50px; transform-style: preserve-3d; animation: carouselSpin 30s linear infinite;">
+    <!-- AI ChatBot -->
+    <div style="transition: transform 0.6s; cursor: pointer; transform: rotateY(0deg) translateZ(150px); transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(0deg) translateZ(200px) scale(1.1);'; this.style.filter='drop-shadow(0 10px 20px rgba(0,0,0,0.3)) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) translateZ(150px) scale(1);'; this.style.filter='none brightness(1);'">
+      <div style="width: 200px; height: 150px; background: linear-gradient(135deg, #FF9800, #F57C00); border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+        <img src="https://via.placeholder.com/200x80/FF9800/000?text=AI+ChatBot" style="width: 100%; height: 80px; object-fit: cover; border-radius: 10px 10px 0 0;" />
         <h4>AI ChatBot</h4>
-        <p>Python-powered conversational AI</p>
+        <p>Python-powered AI</p>
       </div>
-    </a>
-    <!-- Add Dashboard & Graphic Design Editor similarly -->
-    <a href="#" style="text-decoration: none; color: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.4s; position: relative; display: block;" onmouseover="this.style.transform='translateY(-10px) scale(1.02); box-shadow: 0 15px 40px rgba(14,165,233,0.4);'; this.style.filter='brightness(1.1);'" onmouseout="this.style.transform='translateY(0) scale(1); box-shadow: 0 4px 15px rgba(0,0,0,0.2);'; this.style.filter='brightness(1);'">
-      <img src="https://via.placeholder.com/250x100/2196F3/fff?text=Full-Stack+Dashboard" alt="Dashboard" style="width: 100%; height: 100px; object-fit: cover;" />
-      <div style="padding: 10px; background: #2196F3; text-align: center;">
+    </div>
+    <!-- Full-Stack Dashboard -->
+    <div style="transition: transform 0.6s; cursor: pointer; transform: rotateY(72deg) translateZ(150px); transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(72deg) translateZ(200px) scale(1.1);'; this.style.filter='drop-shadow(0 10px 20px rgba(0,0,0,0.3)) brightness(1.2);'" onmouseout="this.style.transform='rotateY(72deg) translateZ(150px) scale(1);'; this.style.filter='none brightness(1);'">
+      <div style="width: 200px; height: 150px; background: linear-gradient(135deg, #2196F3, #1976D2); border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+        <img src="https://via.placeholder.com/200x80/2196F3/fff?text=Dashboard" style="width: 100%; height: 80px; object-fit: cover; border-radius: 10px 10px 0 0;" />
         <h4>Full-Stack Dashboard</h4>
-        <p>React + Node.js magic</p>
+        <p>React + Node.js</p>
       </div>
-    </a>
-    <a href="#" style="text-decoration: none; color: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.4s; position: relative; display: block;" onmouseover="this.style.transform='translateY(-10px) scale(1.02); box-shadow: 0 15px 40px rgba(14,165,233,0.4);'; this.style.filter='brightness(1.1);'" onmouseout="this.style.transform='translateY(0) scale(1); box-shadow: 0 4px 15px rgba(0,0,0,0.2);'; this.style.filter='brightness(1);'">
-      <img src="https://via.placeholder.com/250x100/9C27B0/fff?text=Graphic+Design+Editor" alt="Design Editor" style="width: 100%; height: 100px; object-fit: cover;" />
-      <div style="padding: 10px; background: #9C27B0; text-align: center;">
+    </div>
+    <!-- Graphic Design Editor -->
+    <div style="transition: transform 0.6s; cursor: pointer; transform: rotateY(144deg) translateZ(150px); transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(144deg) translateZ(200px) scale(1.1);'; this.style.filter='drop-shadow(0 10px 20px rgba(0,0,0,0.3)) brightness(1.2);'" onmouseout="this.style.transform='rotateY(144deg) translateZ(150px) scale(1);'; this.style.filter='none brightness(1);'">
+      <div style="width: 200px; height: 150px; background: linear-gradient(135deg, #9C27B0, #7B1FA2); border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+        <img src="https://via.placeholder.com/200x80/9C27B0/fff?text=Design+Editor" style="width: 100%; height: 80px; object-fit: cover; border-radius: 10px 10px 0 0;" />
         <h4>🎨 Graphic Design Editor</h4>
-        <p>Canva-inspired: Vectors & layers | JS/TS</p>
+        <p>Canva-like tool | JS/TS</p>
       </div>
-    </a>
+    </div>
   </div>
 </div>
 
-<!-- Snake, Stats, etc. – same as before -->
-<div align="center" style="animation: fadeInUp 1s ease-out 2.4s both;">
+<!-- Snake -->
+<div style="animation: fadeInUp 1s ease-out 2.4s both; text-align: center;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/output/github-contribution-grid-snake.svg">
-    <img alt="snake gif" src="https://github.com/markjyadavoffical/markjyadavoffical/blob/output/github-contribution-grid-snake.svg" />
+    <img alt="snake gif" src="https://github.com/markjyadavoffical/markjyadavoffical/blob/output/github-contribution-grid-snake.svg" style="filter: drop-shadow(0 0 10px #0EA5E9); transition: filter 0.3s; transform-style: preserve-3d;" onmouseover="this.style.filter='drop-shadow(0 0 20px #0EA5E9) brightness(1.2) rotateY(10deg);'" onmouseout="this.style.filter='drop-shadow(0 0 10px #0EA5E9) brightness(1) rotateY(0deg);'" />
   </picture>
 </div>
 
-<div align="center" style="animation: fadeInUp 1s ease-out 2.6s both;">
-  <img src="https://profile-counter.glitch.me/{your-visitors-token}/count.svg" alt="Visitors" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=markjyadavoffical&theme=radical&hide_border=true&fire_add=🔥" alt="Streak" />
+<!-- Visitor & Streak -->
+<div style="animation: fadeInUp 1s ease-out 2.6s both; text-align: center;">
+  <img src="https://profile-counter.glitch.me/{your-visitors-token}/count.svg" alt="Visitors" style="margin: 0 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateY(10deg);'" onmouseout="this.style.transform='scale(1) rotateY(0deg);'" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=markjyadavoffical&theme=radical&hide_border=true&fire_add=🔥" alt="Streak" style="margin: 0 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1) rotateY(10deg);'" onmouseout="this.style.transform='scale(1) rotateY(0deg);'" />
 </div>
 
 ---
 
 ## 📊 GitHub Stats
-<div align="center" style="animation: fadeInUp 1s ease-out 2.8s both;">
+<div style="animation: fadeInUp 1s ease-out 2.8s both; text-align: center; transform-style: preserve-3d; perspective: 500px;">
   ![Stats](https://github-readme-stats.vercel.app/api?username=markjyadavoffical&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=6BE6FF&text_color=9CDCFE)
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=markjyadavoffical&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6BE6FF&text_color=9CDCFE)
 </div>
 
-<div align="center" style="animation: fadeInUp 1s ease-out 3s both;">
-  <img src="https://github-profile-trophy.vercel.app/?username=markjyadavoffical&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+<div style="animation: fadeInUp 1s ease-out 3s both; text-align: center;">
+  <img src="https://github-profile-trophy.vercel.app/?username=markjyadavoffical&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" style="filter: drop-shadow(0 0 10px #0EA5E9); transition: all 0.3s; transform-style: preserve-3d;" onmouseover="this.style.transform='rotateY(180deg) scale(1.1); filter: drop-shadow(0 0 20px #0EA5E9) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) scale(1); filter: drop-shadow(0 0 10px #0EA5E9) brightness(1);'" />
 </div>
 
 <style>
 @keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
-@keyframes gridPulse { 0%, 100% { opacity: 0.1; } 50% { opacity: 0.3; } }
-@keyframes swarmFloat { 0%, 100% { transform: translateY(0) rotate(0deg); opacity: 1; } 50% { transform: translateY(-20px) rotate(180deg); opacity: 0.7; } }
-@keyframes hologramRotate { from { transform: rotateY(0deg) scale(1); } to { transform: rotateY(360deg) scale(1.1); } }
-@keyframes glitch { 0% { transform: skew(0deg); } 10% { transform: skew(2deg); } 20% { transform: skew(-2deg); } 100% { transform: skew(0deg); } }
+@keyframes gridTilt { 0% { transform: rotateX(80deg); } 100% { transform: rotateX(85deg); } }
+@keyframes orbit3D { from { transform: rotateY(0deg) translateX(50px) rotateY(0deg); } to { transform: rotateY(360deg) translateX(50px) rotateY(360deg); } }
+@keyframes hologramRotate { from { transform: rotateY(0deg) rotateX(0deg); } to { transform: rotateY(360deg) rotateX(360deg); } }
+@keyframes glitchSkew { 0% { transform: skew(0deg); } 10% { transform: skew(2deg); } 20% { transform: skew(-2deg); } 100% { transform: skew(0deg); } }
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes waveVibe { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(1.1); } }
 @keyframes glowPulse { 0% { text-shadow: 0 0 10px #0EA5E9; } 100% { text-shadow: 0 0 30px #0EA5E9; } }
 @keyframes orbPulse { 0% { opacity: 0.5; } 100% { opacity: 1; } }
-@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+@keyframes pyramidSpin { from { transform: rotateY(0deg); } to { transform: rotateY(360deg); } }
+@keyframes carouselSpin { from { transform: rotateY(0deg); } to { transform: rotateY(360deg); } }
+@keyframes cubeRotate { from { transform: rotateX(0deg) rotateY(0deg); } to { transform: rotateX(360deg) rotateY(360deg); } }
 </style>
