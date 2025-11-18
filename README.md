@@ -139,35 +139,16 @@
   </div>
 </div>
 
-<!-- Snake Animation   
+<!-- Snake Animation   -->
 
  <div align="center">
--->
-  <!-- <picture>
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg">
     <img alt="snake animation" src="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg" />
   </picture>
-</div>  -->
+</div>  
 
-<div style="position: relative; overflow: hidden; height: 200px; background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); background-size: 400% 400%; transition: background-position 15s ease infinite;">
-  <!-- Neon Grid -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: linear-gradient(#0EA5E9 1px, transparent 1px), linear-gradient(90deg, #0EA5E9 1px, transparent 1px); background-size: 50px 50px; opacity: 0.1; transition: opacity 4s ease infinite alternate;"></div>
- 
-  <!-- Particles -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
-    <div style="position: absolute; width: 4px; height: 4px; background: #0EA5E9; border-radius: 50%; top: 20%; left: 10%; transition: transform 6s ease-in-out infinite; transform: translateY(0) rotate(0deg);" onmouseover="this.style.transform='translateY(-20px) rotate(180deg) scale(1.5);'" onmouseout="this.style.transform='translateY(0) rotate(0deg) scale(1);';"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: #FF6B35; border-radius: 50%; top: 40%; left: 30%; transition: transform 6s ease-in-out infinite 0.5s; transform: translateY(0) rotate(0deg);" onmouseover="this.style.transform='translateY(-20px) rotate(180deg) scale(1.5);'" onmouseout="this.style.transform='translateY(0) rotate(0deg) scale(1);';"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: #4ECDC4; border-radius: 50%; top: 60%; left: 50%; transition: transform 6s ease-in-out infinite 1s; transform: translateY(0) rotate(0deg);" onmouseover="this.style.transform='translateY(-20px) rotate(180deg) scale(1.5);'" onmouseout="this.style.transform='translateY(0) rotate(0deg) scale(1);';"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: #FFEAA7; border-radius: 50%; top: 30%; left: 70%; transition: transform 6s ease-in-out infinite 1.5s; transform: translateY(0) rotate(0deg);" onmouseover="this.style.transform='translateY(-20px) rotate(180deg) scale(1.5);'" onmouseout="this.style.transform='translateY(0) rotate(0deg) scale(1);';"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: #9C27B0; border-radius: 50%; top: 80%; left: 20%; transition: transform 6s ease-in-out infinite 2s; transform: translateY(0) rotate(0deg);" onmouseover="this.style.transform='translateY(-20px) rotate(180deg) scale(1.5);'" onmouseout="this.style.transform='translateY(0) rotate(0deg) scale(1);';"></div>
-  </div>
- 
-  <!-- Hologram Avatar -->
-  <img src="https://avatars.githubusercontent.com/u/174855488?v=4" alt="Mark J Yadav" style="border-radius: 50%; width: 120px; height: 120px; transition: transform 8s linear infinite, filter 0.3s; filter: drop-shadow(0 0 10px #0EA5E9); position: relative; z-index: 2; margin-top: 30px; cursor: pointer;" onmouseover="this.style.transform='rotateY(360deg) scale(1.2);'; this.style.filter='drop-shadow(0 0 20px #0EA5E9) brightness(1.2);'" onmouseout="this.style.transform='rotateY(0deg) scale(1);'; this.style.filter='drop-shadow(0 0 10px #0EA5E9) brightness(1);'" />
- 
-  <!-- Typing Hero -->
-  <div style="position: relative; z-index: 2; transition: transform 1s infinite; margin-top: 10px; cursor: pointer;" onmouseover="this.style.transform='skew(2deg) rotateX(5deg) scale(1.05);'" onmouseout="this.style.transform='skew(0deg) rotateX(0deg) scale(1);'">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Hi+there!+I%27m+Mark+J+Yadav;Full-Stack+Dev+%26+AI+Enthusiast
+
 
 
