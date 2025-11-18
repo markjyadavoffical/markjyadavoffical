@@ -1,7 +1,7 @@
 name: Generate Snake
 on:
   push:
-    branches: [ main ]  # Agar tera branch 'master' hai, toh [ master ] kar de
+    branches: [ main ]  # Agar branch 'master' hai, toh [ master ] kar de
   schedule:
     - cron: '0 0 * * *'  # Daily auto-run
 jobs:
@@ -16,3 +16,8 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg,
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Push Snake SVG to repo  # Yeh new step—files commit karega
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update snake animation"
+          file_pattern: dist/*
