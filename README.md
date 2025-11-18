@@ -140,16 +140,12 @@
 </div>
 
 <!-- Snake Animation -->
-<!-- <div align="center">
+ <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg">
     <img alt="snake animation" src="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg" />
   </picture>
-</div> -->
+</div> 
 
-<!-- Snake Animation (Fallback GIF) -->
-<div align="center">
-  <img src="https://github.com/abhisheknaiidu/github-readme-snake/blob/output/github-contribution-grid-snake.gif" alt="snake animation" width="400" />
-</div>
 
