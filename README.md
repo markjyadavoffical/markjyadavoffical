@@ -139,9 +139,9 @@
   </div>
 </div>
 
-<!-- Snake -->
+
 <!-- Snake Animation -->
-<div align="center" style="animation: fadeInUp 1s ease-out 2.4s both;">
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg">
