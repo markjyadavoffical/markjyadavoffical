@@ -140,11 +140,12 @@
 </div>
 
 <!-- Snake -->
-<div style="animation: fadeInUp 1s ease-out 2.4s both; text-align: center;">
+<!-- Snake Animation -->
+<div align="center" style="animation: fadeInUp 1s ease-out 2.4s both;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/output/github-contribution-grid-snake.svg">
-    <img alt="snake gif" src="https://github.com/markjyadavoffical/markjyadavoffical/blob/output/github-contribution-grid-snake.svg" style="filter: drop-shadow(0 0 10px #0EA5E9); transition: filter 0.3s;" onmouseover="this.style.filter='drop-shadow(0 0 20px #0EA5E9) brightness(1.2);'" onmouseout="this.style.filter='drop-shadow(0 0 10px #0EA5E9) brightness(1);'" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg">
+    <img alt="snake gif" src="https://github.com/markjyadavoffical/markjyadavoffical/blob/dist/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
