@@ -105,39 +105,8 @@
   </div>
 </div>
 
-<!-- Dynamic Vibes -->
-<div style="transition: all 1s ease-out 2s; text-align: center; margin: 20px 0; cursor: pointer;" onmouseover="this.style.transform='rotateX(5deg) scale(1.05); box-shadow: 0 10px 20px rgba(0,0,0,0.2);'" onmouseout="this.style.transform='rotateX(0deg) scale(1); box-shadow: none;'">
-  <h3 style="color: #0EA5E9; text-shadow: 0 0 10px #0EA5E9; transition: text-shadow 2s alternate;" onmouseover="this.style.textShadow='0 0 20px #0EA5E9'; this.style.transform='scale(1.05);'" onmouseout="this.style.textShadow='0 0 10px #0EA5E9'; this.style.transform='scale(1);'">Dynamic Vibes</h3>
-  ![WakaTime](https://wakatime.com/badge/github/markjyadavoffical.svg)
-</div>
 
-<!-- Projects -->
-<div style="transition: all 1s ease-out 2.2s; margin: 20px 0; text-align: center; cursor: pointer;" onmouseover="this.style.transform='rotateY(5deg) scale(1.02); box-shadow: 0 10px 30px rgba(14,165,233,0.3);'" onmouseout="this.style.transform='rotateY(0deg) scale(1); box-shadow: none;'">
-  <h3 style="color: #0EA5E9; text-shadow: 0 0 20px #0EA5E9; transition: text-shadow 2s alternate;" onmouseover="this.style.textShadow='0 0 30px #0EA5E9'; this.style.transform='scale(1.05);'" onmouseout="this.style.textShadow='0 0 20px #0EA5E9'; this.style.transform='scale(1);'">🌟 Featured Projects</h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; max-width: 800px; margin: 0 auto;">
-    <a href="#" style="text-decoration: none; color: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.4s; position: relative; display: block; cursor: pointer;" onmouseover="this.style.transform='translateY(-10px) scale(1.02) rotateX(10deg); box-shadow: 0 15px 40px rgba(14,165,233,0.4);'; this.style.filter='brightness(1.1) drop-shadow(0 0 10px #FF9800);'" onmouseout="this.style.transform='translateY(0) scale(1) rotateX(0deg); box-shadow: 0 4px 15px rgba(0,0,0,0.2);'; this.style.filter='brightness(1) drop-shadow(0 0 0 #FF9800);'">
-      <img src="https://via.placeholder.com/250x100/FF9800/000?text=AI+ChatBot" alt="AI ChatBot" style="width: 100%; height: 100px; object-fit: cover;" />
-      <div style="padding: 10px; background: #FF9800; text-align: center;">
-        <h4>AI ChatBot</h4>
-        <p>Python-powered conversational AI</p>
-      </div>
-    </a>
-    <a href="#" style="text-decoration: none; color: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.4s; position: relative; display: block; cursor: pointer;" onmouseover="this.style.transform='translateY(-10px) scale(1.02) rotateX(10deg); box-shadow: 0 15px 40px rgba(14,165,233,0.4);'; this.style.filter='brightness(1.1) drop-shadow(0 0 10px #2196F3);'" onmouseout="this.style.transform='translateY(0) scale(1) rotateX(0deg); box-shadow: 0 4px 15px rgba(0,0,0,0.2);'; this.style.filter='brightness(1) drop-shadow(0 0 0 #2196F3);'">
-      <img src="https://via.placeholder.com/250x100/2196F3/fff?text=Full-Stack+Dashboard" alt="Dashboard" style="width: 100%; height: 100px; object-fit: cover;" />
-      <div style="padding: 10px; background: #2196F3; text-align: center;">
-        <h4>Full-Stack Dashboard</h4>
-        <p>React + Node.js magic</p>
-      </div>
-    </a>
-    <a href="#" style="text-decoration: none; color: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.4s; position: relative; display: block; cursor: pointer;" onmouseover="this.style.transform='translateY(-10px) scale(1.02) rotateX(10deg); box-shadow: 0 15px 40px rgba(14,165,233,0.4);'; this.style.filter='brightness(1.1) drop-shadow(0 0 10px #9C27B0);'" onmouseout="this.style.transform='translateY(0) scale(1) rotateX(0deg); box-shadow: 0 4px 15px rgba(0,0,0,0.2);'; this.style.filter='brightness(1) drop-shadow(0 0 0 #9C27B0);'">
-      <img src="https://via.placeholder.com/250x100/9C27B0/fff?text=Graphic+Design+Editor" alt="Design Editor" style="width: 100%; height: 100px; object-fit: cover;" />
-      <div style="padding: 10px; background: #9C27B0; text-align: center;">
-        <h4>🎨 Graphic Design Editor</h4>
-        <p>Canva-inspired: Vectors & layers | JS/TS</p>
-      </div>
-    </a>
-  </div>
-</div>
+
 
 <!-- Snake Animation   -->
 
