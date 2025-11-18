@@ -58,7 +58,7 @@
 </div>
 
 <div style="animation: fadeInUp 1s ease-out 1.2s both;">
-  Let's innovate together → [Fork a project](https://github.com/markjyadavoffical) | [⭐ Star a repo], or [💬 Reach out](mailto:markjyadav@gmail.com)
+  Let's innovate together → [Fork a project](https://github.com/markjyadavoffical) | [⭐ Star a repo], or [💬 Reach out](mailto:markjyadavceo@gmail.com)
 </div>
 
 ## 💼 Bouncing 3D Skill Flip Cards
